@@ -1,0 +1,5 @@
+addi $8, $0, 1
+addiu $9, $0, -1
+beq $8, $9, label_x
+and $11, $8, $8
+label_x: add $11, $11, $9
